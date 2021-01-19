@@ -7,6 +7,6 @@ test('check for h1 font size change', async () => {
   const { getByRole } = render(<Intro />)
   let element = getByRole('heading', { level: 1 })
   expect(element).toHaveStyle({
-    fontSize: '36pt'
+    fontSize: '26pt'
   })
 })
