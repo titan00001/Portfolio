@@ -12,11 +12,11 @@ export const Grid = styled.div`
   grid-template-rows: 8fr;
   gap: 1.2rem 1.2rem;
 
-  @media (max-width: 960px) {
+  @media (max-width: 1180px) {
     grid-template-columns: repeat(2, 1fr);
   }
 
-  @media (max-width: 680px) {
+  @media (max-width: 700px) {
     grid-template-columns: 1fr;
   }
 `;
