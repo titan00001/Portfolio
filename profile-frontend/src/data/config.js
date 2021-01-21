@@ -93,13 +93,15 @@ module.exports = {
       skill: 'AWS', expertise: '1'
     }]
   }, {
-    category: 'Miscallaneous',
+    category: 'Miscellaneous',
     skillList: [{
       skill: 'ML', expertise: '1'
     }, {
       skill: 'Web Scraping', expertise: '2'
     }, {
       skill: 'Git', expertise: '4'
+    }, {
+      skill: 'Adobe XD', expertise: '2'
     }]
   }]
 };
